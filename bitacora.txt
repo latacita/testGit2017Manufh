@@ -8,7 +8,11 @@
 ====== ============================ ================================
 (03)    Creo rama Historia000       Sin desplazarme a ella
 (04)    Creo rama Historia001       Sin desplazarme a ella
-(05)    Me desplazo a la rama Historia000; He tenido que realizar un stash
+(05)    Checkout Historia000; He tenido que realizar un stash
                                     en la rama master para almacenar los cambios
                                     realizados que no han sido añadidos mediante
                                     un Commit
+(11)  Checkout Historia000;         He tenido que realitar un stash para almacenar
+                                    los cambios realizados  en la rama Historia001
+                                    sin que estos se pierdan al no haber hecho un
+                                    Commit.
