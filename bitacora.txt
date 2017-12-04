@@ -6,3 +6,9 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(03)    Creo rama Historia000       Sin desplazarme a ella
+(04)    Creo rama Historia001       Sin desplazarme a ella
+(05)    Me desplazo a la rama Historia000; He tenido que realizar un stash
+                                    en la rama master para almacenar los cambios
+                                    realizados que no han sido añadidos mediante
+                                    un Commit
