@@ -6,8 +6,26 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(03)    Creo rama Historia000       Sin desplazarme a ella
+(04)    Creo rama Historia001       Sin desplazarme a ella
+(05)    Checkout Historia000; He tenido que realizar un stash
+                                    en la rama master para almacenar los cambios
+                                    realizados que no han sido añadidos mediante
+                                    un Commit
+(07)   Realizar un stage del fichero bitacora.txt
+(08)   Commit "Paso08"
+(09)   Historia 001
+(11)  Checkout Historia000;         He tenido que realitar un stash para almacenar
+                                    los cambios realizados  en la rama Historia001
+                                    sin que estos se pierdan al no haber hecho un
+                                    Commit.
+(16)   apply stash "Paso 10"
+(20)   merge Historia000            Surge un conflicto al realizar el merge, deberemos
+                                    meternos el el fichero y ver que pasa. A la hora de
+                                    solucionarlo ordenaremos los pasos que han quedado
+                                    desordenados. Tipo fusión: recursiva.
 (25)   Merge Historia001            Tipo fusión: fast-forward
 (27)   Añadir etiqueta "RespuestaPreguntaFusion"; Sin subirlo al remoto
 (28)   Push origin                  He tenido que hacer un pull antes de hacer el
                                     push.
-                                    
+(30)   Commit "Paso 30"             Tipo fusión: recursiva.
