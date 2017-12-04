@@ -7,3 +7,7 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 (25)   Merge Historia001            Tipo fusión: fast-forward
+(27)   Añadir etiqueta "RespuestaPreguntaFusion"; Sin subirlo al remoto
+(28)   Push origin                  He tenido que hacer un pull antes de hacer el
+                                    push.
+                                    
